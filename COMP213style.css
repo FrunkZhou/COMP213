@@ -1,0 +1,96 @@
+body {
+	background-color: #ff95ff;
+	color: #000066;
+}
+
+p {
+	font-family: "Verdana", serif;
+}
+
+h1#index {
+	text-align: center;
+	text-transform: uppercase;
+	color: #660066; 
+}
+
+h1 {
+	text-align: center;
+	color: #660066; 
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+p, blockquote, pre {
+	background-color: #ff00ff;
+}
+
+img {
+	float: left;
+	margin-right: 30px;	
+}
+
+p#about {
+	margin-left: 10px;
+}
+
+/* Start of table */
+th, td {
+	border: 6px double #b30000;
+	border-radius: 8px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/* End of table*/
+
+
+input {
+}
+/* Start of Navigation */
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #e6e6ff;
+	border-radius: 10px;
+
+}
+
+nav ul li {
+	float: left;
+
+}
+
+nav ul li a {
+	display: block;
+	color: #191966;
+	text-align: center;
+	padding: 14px 16px; 
+	text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+	background-color: #adadeb;
+}
+
+nav ul li a.active {
+	background-color: #5c5cd6;
+	color: #ebebfa;
+}
+
+nav ul li.right{
+	float: right;
+}
+
+@media screen and (max-width: 600px){
+	nav ul li.right,
+	nav ul li {float: none;}
+}
+
+/* End of Navigation */

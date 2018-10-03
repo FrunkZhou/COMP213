@@ -1,0 +1,132 @@
+html, body, main {
+	height: 100%;
+}
+
+body {
+	background-color: #99ccff;
+}
+
+p {
+	font-family: "Times";
+	font-size: 22px;
+	color: #003300;
+}
+
+span.header2 {
+	font-size: 30px;
+}
+
+span.header3 {
+	font-size: 28px;
+}
+
+h1 {
+	text-align: center;
+	color: #000033;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #000033;
+}
+
+h3 {
+	font-size: 26px;
+	color:  #003300;
+	text-align:center;
+	
+}
+
+h4 {
+	font-size: 24px;
+	color: #003300;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #800000;
+}
+
+.rightimg {
+	float: right;
+	margin-left: 30px;
+}
+.centerimg {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	float: centre;
+	margin-right: 30px;	
+}
+
+
+/* Start of Navigation */
+
+.sidenav {
+    height: 100%; 
+    width: 245px; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-color: #002966; 
+    overflow-x: hidden; 
+    padding-top: 75px;
+}
+
+.sidenav a {
+    padding: 22px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #b3ffff;
+    display: block;
+	width: 180px;
+	border-radius: 20px;
+	margin: 5px;
+	
+}
+
+.sidenav ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.sidenav ul li {
+	float: left;
+}
+
+.sidenav a:hover {
+    color: #002966;
+}
+
+.sidenav nav ul li a:hover:not(.active) {
+	background-color: #99c2ff;
+}
+
+.sidenav nav ul li a.active {
+	background-color: #99c2ff;
+	color: #002966;
+}
+
+
+.main {
+    margin-left: 245px; 
+    padding: 0px 70px;
+}
+
+@media screen and (max-height: 500px) {
+    .sidenav {padding-top: 0px;}
+    .sidenav a {font-size: 14px;}
+	.sidenav a {padding: 5px;}
+}
+
+/* End of Navigation */
